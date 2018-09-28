@@ -3,18 +3,12 @@ import random
 print('Please enter "yes" or "no"')
 answer = input()
 
+del answer # input is actually not important, just wasting time!!!
+
 random = random.random()
-if answer=='yes':
-    if(random >= 0.25):
-        print('Real answer is "No"')
-    else:
-        print('Real answer is "Yes"')
-elif answer=='no':
-    if(random >= 0.25):
-        print('Real answer is "Yes"')
-    else:
-        print('Real answer is "No"')
+if(random >= 0.25):
+    print('50% sure real answer is "No"')
 else:
-    print('Please at least provide yes or no! God damn!')
+    print('50% sure real answer is "Yes"')
 
 # have fun
