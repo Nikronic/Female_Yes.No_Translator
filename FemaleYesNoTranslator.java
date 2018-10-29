@@ -10,8 +10,7 @@ public class FemaleYesNoTranslator {
         //input is actually not important, just wasting time!!!
 
         float number = new Random().nextFloat();
-
-        System.out.println(number);
+        
         if (number >= 0.5) {
             System.out.print("50% sure real answer is No");
         } else {
